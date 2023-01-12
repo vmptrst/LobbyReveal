@@ -2,7 +2,7 @@
 Simple CLI application to decode player igns while inside champion select
 
 ## Usage
-* Download from the <a href="https://github.com/Scary777/LCU-Exploit/releases/tag/lcu">releases</a> here and simply run the program.
+* Download from the <a href="https://github.com/Scary777/LCU-Exploit/releases/tag/lcu-exploit">releases</a> here and simply run the program.
 
 * Enter the command: `pull` any time you want to grab player information. </br>
 You'll run into an error anytime you try using this command outside of champion select.
