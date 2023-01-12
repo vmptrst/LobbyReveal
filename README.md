@@ -15,7 +15,7 @@ You'll run into an error anytime you try using this command outside of champion 
 
 This is **not** bannable/detectable. The only possible way you could get banned from this is if you made it obvious you had this information and someone reported you. </br>
 
-Player data is gotten by accessing the LCU API which is something that automatically happens behind the scenes within your client, this program is just displaying that information, it's not accessing any data that you weren't authorized.
+Player data is gotten by accessing the LCU API which is something that automatically happens behind the scenes within your client, this program is just displaying that information, it's not accessing any data that you weren't authorized for.
 
 ## How?
 
