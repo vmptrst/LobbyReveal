@@ -16,3 +16,7 @@ You'll run into an error anytime you try using this command outside of champion 
 This is **not** bannable/detectable. The only possible way you could get banned from this is if you made it obvious you had this information and someone reported you. </br>
 
 Player data is gotten by accessing the LCU API which is something that automatically happens behind the scenes within your client, this program is just displaying that information, it's not accessing any data that you weren't authorized.
+
+## How?
+
+This is accomplished by using <a href="https://github.com/rrthomas/psutils">psutils</a> to grab the `LeagueClient.exe` process and pull the LCU port and auth token from the process. We then encode the token with a base64 encryption and use it to make an API call to `/chat/v5/participants/champ-select` where we then parse the lobby data back.
