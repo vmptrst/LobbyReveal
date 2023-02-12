@@ -2,7 +2,7 @@
 Lightweight application to decode player  while inside champion select
 
 ## Usage
-* Download from the <a href="https://github.com/Scary777/LCU-Exploit/releases/tag/lcuexploit">releases</a> here and simply run the program.
+* Make sure you have Python 3.10 installed, get it <a href="https://www.python.org/downloads/release/python-31010/">here</a>
 
 * Start the program after you log into the client, it'll automatically print the usernames as soon as you join champ select</br>
 You'll run into an error anytime you try using this when the client is closed.
