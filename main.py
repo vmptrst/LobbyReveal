@@ -1,3 +1,17 @@
+import subprocess
+import importlib
+
+def install_dependencies():
+    packages = ['urllib3>=1.26.5', 'requests==2.25.1', 'psutil==5.7.3']
+    for package in packages:
+        try:
+            importlib.import_module(package.split("==")[0])
+        except ImportError:
+            subprocess.call(['pip', 'install', package])
+
+if __name__ == '__main__':
+    install_dependencies()
+
 import sys
 import requests
 import json
