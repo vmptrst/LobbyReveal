@@ -2,10 +2,10 @@ import subprocess
 import importlib
 
 def install_dependencies():
-    packages = ['urllib3>=1.26.5', 'requests==2.25.1', 'psutil==5.7.3']
+    packages = ['urllib3>=1.26.5', 'requests>=2.25.1', 'psutil>=5.7.3']
     for package in packages:
         try:
-            importlib.import_module(package.split("==")[0])
+            importlib.import_module(package.split(">=")[0])
         except ImportError:
             subprocess.call(['pip', 'install', package])
 
@@ -84,6 +84,8 @@ def main():
     global showNotInChampSelect
 
     sys.argv[0] = "LobbyReveal - Scary"
+
+    clear()
 
     getLCUName()
     getLCUInfo()
