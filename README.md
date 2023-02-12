@@ -1,4 +1,4 @@
-## LCU-Exploit
+## RevealLobby
 Lightweight application to decode player  while inside champion select
 
 ## Usage
