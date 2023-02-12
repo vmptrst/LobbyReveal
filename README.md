@@ -9,7 +9,7 @@ You'll run into an error anytime you try using this when the client is closed.
 
 * Copy paste the names into <a href="https://op.gg">op.gg</a> or <a href="https://u.gg">u.gg</a> for a multi-link
 
-<img src="https://media.discordapp.net/attachments/1051258953755000924/1062954400995344414/image.png?width=770&height=428">
+<img src="https://media.discordapp.net/attachments/987757390730522694/1074194351774760990/image.png?width=770&height=428">
 
 ## Safety
 
