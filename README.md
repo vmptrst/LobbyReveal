@@ -13,4 +13,4 @@ You'll run into an error anytime you try using this when the client is closed.
 
 ## Safety
 
-This is **not** bannable/detectable. The only possible way you could get banned from this is if you made it obvious you had this information and someone reported you. </br>
+You can potentially be banned for this, use at your own risk. </br>
